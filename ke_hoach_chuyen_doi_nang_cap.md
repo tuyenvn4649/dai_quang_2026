@@ -307,27 +307,26 @@ Quy trình thực hiện di cư chính thức sẽ diễn ra trong **48 giờ** 
 
 ## 6. LỘ TRÌNH TRIỂN KHAI (ROADMAP)
 
-Dự án dự kiến triển khai trong vòng **6 tuần** theo các giai đoạn chi tiết sau:
+Dự án dự kiến triển khai theo các giai đoạn chi tiết sau:
 
 ```mermaid
 gantt
     title Lộ trình Triển khai Dự án Chấm Công & Lương Đại Quang 2026
     dateFormat  YYYY-MM-DD
-    section Giai đoạn 1: Chuẩn bị
-    Khảo sát ca kíp & quy chế lương thực tế:active, p1, 2026-07-05, 5d
-    Khảo sát firmware máy chấm công tại chi nhánh: p2, after p1, 3d
-    Chuẩn hóa danh mục nhân sự & chi nhánh: p3, after p2, 4d
+    section Giai đoạn 1: Thiết kế & Xác nhận
+    Mô tả chức năng và thiết kế kỹ thuật       :active, p1, 2026-07-05, 20d
+    Thông qua & xác nhận chức năng với BLĐ DQ  : p2, after p1, 6d
     section Giai đoạn 2: Phát triển
-    Phát triển Bộ máy tính công 24h (daiquang_attendance_2026): p4, after p3, 10d
-    Tích hợp API ADMS & Đồng bộ máy chấm công ZK: p5, after p4, 6d
-    Phát triển Tuyển dụng & Hợp đồng tự động: p6, after p5, 5d
-    Phát triển Cấu trúc Lương lai (Hybrid Payroll & Excel): p7, after p6, 7d
+    Phát triển Bộ máy tính công 24h (daiquang_attendance_2026): p3, after p2, 10d
+    Tích hợp API ADMS & Đồng bộ máy chấm công ZK: p4, after p3, 6d
+    Phát triển Tuyển dụng & Hợp đồng tự động: p5, after p4, 5d
+    Phát triển Cấu trúc Lương lai (Hybrid Payroll & Excel): p6, after p5, 7d
     section Giai đoạn 3: Kiểm thử
-    Chạy song song 2 hệ thống (Parallel Run) & Sửa lỗi: p8, after p7, 14d
-    Đối chiếu kết quả công & bảng lương tổng hợp: p9, after p8, 5d
+    Chạy song song 2 hệ thống (Parallel Run) & Sửa lỗi: p7, after p6, 14d
+    Đối chiếu kết quả công & bảng lương tổng hợp: p8, after p7, 5d
     section Giai đoạn 4: Vận hành
-    Đào tạo HR, Quản lý bộ phận & Kiểm tra Go-live: p10, after p9, 3d
-    Chính thức Go-live hoàn toàn: p11, after p10, 2d
+    Đào tạo HR, Quản lý bộ phận & Kiểm tra Go-live: p9, after p8, 3d
+    Chính thức Go-live hoàn toàn: p10, after p9, 2d
 ```
 
 ---
