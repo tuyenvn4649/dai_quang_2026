@@ -311,7 +311,7 @@ Dự án dự kiến triển khai theo các giai đoạn chi tiết sau:
 
 ```mermaid
 gantt
-    title Lộ trình Triển khai Dự án Chấm Công & Lương Đại Quang 2026
+    title Lộ trình Triển khai các Module Hành Chính - Nhân sự
     dateFormat  YYYY-MM-DD
     section Giai đoạn 1: Thiết kế & Xác nhận
     Mô tả chức năng và thiết kế kỹ thuật       :active, p1, 2026-07-05, 20d
